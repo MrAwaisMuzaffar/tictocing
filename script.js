@@ -50,7 +50,7 @@ var turn = randomBinary = Math.round(Math.random());
          if((grid1.textContent=='X' && grid4.textContent=='X') &&grid7.textContent == 'X'){
             alert("Player 1 won");
          }
-         if((grid1.textContent=='X' && grid6.textContent=='X') &&grid9.textContent == 'X'){
+         if((grid1.textContent=='X' && grid5.textContent=='X') &&grid9.textContent == 'X'){
             alert("Player 1 won");
          }
          if((grid7.textContent == 'X' && grid8.textContent =='X') && grid9.textContent == 'X'){
@@ -76,7 +76,7 @@ var turn = randomBinary = Math.round(Math.random());
     if((grid1.textContent=='O' && grid4.textContent=='O') &&grid7.textContent == 'O'){
        alert("Player 2 won");
     }
-    if((grid1.textContent=='O' && grid6.textContent=='O') &&grid9.textContent == 'O'){
+    if((grid1.textContent=='O' && grid5.textContent=='O') &&grid9.textContent == 'O'){
        alert("Player 2 won");
     }
     if((grid7.textContent == 'O' && grid8.textContent =='O') && grid9.textContent == 'O'){
