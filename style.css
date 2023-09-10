@@ -1,3 +1,4 @@
+
 .grid {
     height:100px;
      width:100px;
@@ -10,44 +11,43 @@
     text-align :center;
     align-items:center;
     justify-content:center;
-    
-     
+ 
 }
 #grid1{
     position :absolute;
     top:200px;
     left:200px;
-    border-right: 1px solid;
-    border-bottom:1px solid;
+    border-right: 1px solid skyblue;
+    border-bottom:1px solid skyblue;
 
 }
 #grid2{
     position :absolute;
     top:300px;
     left:200px;
-    border-bottom:1px solid;
-    border-right:1px solid;
+    border-bottom:1px solid skyblue;
+    border-right:1px solid skyblue;
 }
 #grid3{
     position :absolute;
     top:400px;
     left:200px;
-    border-right:1px solid;
+    border-right:1px solid skyblue;
 }
 
-/* cloumn 2 now */
+/*  Column2 */
 
 #grid4{
     position :absolute;
     top:200px;
     left:300px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid skyblue;
 }
 #grid5{
     position :absolute;
     top:300px;
     left:300px;
-    border-bottom:1px solid;
+    border-bottom:1px solid skyblue;
 
 }
 #grid6{
@@ -64,22 +64,26 @@
     position :absolute;
     top:200px;
     left:400px;
-    border-left:1px solid;
-    border-bottom:1px solid;
+    border-left:1px solid skyblue;
+    border-bottom:1px solid skyblue;
 
 }
 #grid8{
     position :absolute;
     top:300px;
     left:400px;
-    border-left:1px solid;
-    border-bottom:1px solid;
+    border-left:1px solid skyblue;
+    border-bottom:1px solid skyblue;
 
 }
 #grid9{
     position :absolute;
     top:400px;
     left:400px;
-    border-left:1px solid;
+    border-left:1px solid skyblue;
 
+}
+
+div{
+    font-size:50px;
 }
